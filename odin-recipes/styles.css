@@ -1,0 +1,18 @@
+.index-header {
+   margin: 20px;
+   margin-left: 60px;
+}
+
+li, p {
+    font-size: 24px;
+}
+
+
+body {
+    margin: 23px;
+}
+
+.recipe-name a {
+    margin: 15px;
+    text-decoration: none;
+}
