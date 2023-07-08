@@ -16,3 +16,8 @@ body {
     margin: 15px;
     text-decoration: none;
 }
+
+img {
+    height: auto;
+    width: 600px;
+}
