@@ -1,0 +1,42 @@
+.rock-paper-scissors img {
+    width: 200px;
+    height: 180px;
+    margin: 40px;
+}
+
+.rock-paper-scissors {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.winner {
+    text-align: center;
+    font-size: 55px;
+    margin: 25px;
+}
+
+.scores {
+    display: flex;
+    justify-content: center;
+    margin:30px;
+    gap:300px;
+}
+
+.user-score div,
+.computer-score div {
+    font-size: 100px;
+    margin: 0;
+} 
+
+.user-score,
+.computer-score {
+    text-align: center;
+    margin-top:30px;
+}
+
+.user-score p,
+.computer-score p {
+    font-size: 40px;
+    margin-top: 0;
+}
