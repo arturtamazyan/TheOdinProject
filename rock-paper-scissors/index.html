@@ -4,9 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock paper scissors</title>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+<div class="rock-paper-scissors">
+    <img data-value ='rock' class="rock" src="rock.png">
+    <img data-value ='paper' class="paper" src="paper.png"> 
+    <img data-value ='scissors' class="scissors" src="scissors.png"> 
+
+</div>
+
+<div class="winner"></div>
+
+<div class="scores">
+    <div class="user-score">
+        <div>0</div>
+        <p>You<p>
+    </div>
+    <div class="computer-score">
+        <div>0</div>
+        <p>Computer<p>
+    </div>
+</div>
 </body>
 </html>
